@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 const NavLink= ({href, title}) => {
     return (
         <Link 
@@ -9,3 +11,5 @@ const NavLink= ({href, title}) => {
 
     )
 }
+
+export default NavLink;
