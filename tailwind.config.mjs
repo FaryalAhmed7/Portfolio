@@ -15,8 +15,8 @@ export default {
     },
     colors: {
       ...colors,
-      primary: colors.purple,
-      secondary: colors.pink,
+      primary: colors.emerald,
+      secondary: colors.teal,
     },
   },
   plugins: [],

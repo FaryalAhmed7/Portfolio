@@ -17,8 +17,8 @@ export async function POST(req) {
     }
 
     const data = await resend.emails.send({
-      from: fromEmail,
-      to: ['faryal.ahmedfa7@gmail.com'],
+      from: "onboarding@resend.dev",
+      to: ['farryahmed7@gmail.com'],
       subject: subject || 'New Contact Form Submission',
       react: (
         <>
@@ -29,6 +29,8 @@ export async function POST(req) {
         </>
       ),
     });
+
+    console.log("✅ Resend email sent data:", data); 
 
     return NextResponse.json({ success: true, data }, { status: 200 });
   } catch (error) {

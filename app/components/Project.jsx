@@ -10,40 +10,42 @@ const projectsData = [
     {
         id: 1,
         title: 'Chatbot',
-        description: 'This is a project 1',
+        description: 'An AI-powered chatbot built with JavaScript that responds to user input, simulating natural conversation for web-based applications.',
         image: '/images/projects/chatbot.png',
         tag: ["Web", "All"],
-        gitUrl: "/",
+        gitUrl: "https://github.com/FaryalAhmed7/chatbot",
         previewUrl: "/",
     },
 
     {
         id: 2,
         title: 'Spotify Clone',
-        description: 'This is a project 2',
+        description: 'A functional Spotify-inspired music streaming UI built using HTML, CSS, and JavaScript, replicating core features and responsive design.',
         image: '/images/projects/Spotify.png',
         tag: ["Web", "All"],
-        gitUrl: "/",
+        gitUrl: "https://github.com/FaryalAhmed7/Spotifyclone",
         previewUrl: "/",
     },
 
     {
         id: 3,
-        title: 'itask',
-        description: 'This is a project 3',
+        title: 'iTask',
+        description: 'A modern to-do list application for task management with a clean UI, built using React for efficient state handling and dynamic updates.',
         image: '/images/projects/itask.png',
         tag: ["Web", "All"],
-        gitUrl: "/",
+        gitUrl: "https://github.com/FaryalAhmed7/todoList",
         previewUrl: "/",
     },
 
-    // {
-    //     id: 4,
-    //     title: 'Project 4',
-    //     description: 'This is a project 4',
-    //     image: '/images/project4.jpg',
-    //     tag: ['React', 'Node', 'MongoDB'],
-    // },
+    {
+        id: 4,
+        title: 'Portfolio Website',
+        description: 'This is my personal portfolio website, developed using Next.js and Tailwind CSS to showcase my projects, skills, and professional background.',
+        image: '/images/projects/portfolio.png',
+        tag: ["Web", "All"],
+        gitUrl: "https://github.com/FaryalAhmed7/Portfolio",
+        previewUrl: "/",
+    },
 
     // {
     //     id: 5,
@@ -81,8 +83,8 @@ const Project = () => {
     };
 
     return (
-        <section  >
-            <h2 className='text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12'  >
+        <section id='projects' >
+            <h2 className='text-center text-4xl font-bold text- text-emerald-500 mt-4 mb-8 md:mb-12'  >
                 My Projects
             </h2>
             <div className='text-white flex flex-row justify-center items-center gap-2 py-6'>
